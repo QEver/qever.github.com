@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-        <title>X</title>
+        <title>IDA Python 脚本</title>
         <meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="http://launchyard.com/images/favicon.png"/>
@@ -29,14 +29,17 @@
 <!-- /#banner -->
 	      <div class="LaunchyardDetail"><p><a href="/"></a><img src="http://www.launchyard.com/images/LY-identity.png" width="100" height="100" alt="LaunchYard logo"><br/>LaunchYard helps launch startups<br/><a href="http://launchyard.com/" >Learn more &rarr;</a></p></div>
 
-        
-        
+<section id="content" >
+    <div class="body">
+      <article>
+        <header>
+          <h1 class="entry-title">
+            <a href="/ida-python-jiao-ben.html" rel="bookmark"
+               title="Permalink to IDA Python 脚本">IDA Python 脚本</a></h1>
 
-    
-            <aside id="featured">
-                <div class="body">
-                    <article>
-                        <h1 class="entry-title"><a href="/ida-python-jiao-ben.html">IDA Python 脚本</a></h1>
+        </header>
+
+        <div class="entry-content">
 <div class="post-info">
 	<ul>
         <li class="vcard author">
@@ -48,7 +51,7 @@
 
 	</ul>
 
-</div><!-- /.post-info --><p>============</p>
+</div><!-- /.post-info -->          <p>============</p>
 <h2>DUMP指定内存</h2>
 <p>IDA的C代码DUMP内存已经应用得很广泛了。但是Python相比较而言更简单一些，而且在大块内存DUMP时，效率会比C版的高很多（毕竟C版用的是putc）</p>
 <div class="highlight"><pre><span class="kn">import</span> <span class="nn">idaapi</span>
@@ -80,11 +83,11 @@ _Z17dvmRawDexFileFreeP10RawDexFile</p>
     <span class="k">if</span> <span class="n">g</span> <span class="o">!=</span> <span class="bp">None</span><span class="p">:</span>
         <span class="k">print</span> <span class="s">&quot;0x</span><span class="si">%08x</span><span class="s"> : </span><span class="si">%s</span><span class="s">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">i</span><span class="p">,</span><span class="n">dn</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
 </pre></div>
-                    </article>
-                </div>
-            </aside><!-- /#featured -->
-            
-        
+        </div><!-- /.entry-content -->
+
+      </article>
+    </div>
+</section>
         <section id="extras" >
        
         
